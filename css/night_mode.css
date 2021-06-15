@@ -1,0 +1,157 @@
+#icon-close {
+  background-image: url("../assets/close-modo-noct.svg");
+}
+
+#white-bg {
+  background-color: white;
+  opacity: 0.7;
+}
+
+#white-bg:hover {
+  opacity: 1;
+}
+
+#dark-selected {
+  background-color: white;
+  color: black;
+}
+
+#icon-new-gif {
+  background-image: url("../assets/crear-gifo-modo-noc.svg");
+}
+
+#icon-new-gif:hover {
+  background-image: url("../assets/crear-gifo-hover-modo-noc.svg");
+}
+
+#icon-new-gif:active {
+  background-image: url("../assets/crear-gifo-active-modo-noc.svg");
+}
+
+.night {
+  background-color: #37383C;
+  border-color: black;
+}
+
+.night h1, .night h2, .night h3, .night p {
+  color: white;
+}
+
+.night input {
+  background-color: #37383C;
+  color: white;
+}
+
+.night .logo span {
+  background-color: #37383C;
+  color: white;
+}
+
+.night .menu {
+  background-color: inherit;
+}
+
+.night .menu .burger-logo {
+  background-image: url("../assets/burger-modo-noct.svg");
+}
+
+.night .menu .checkbox:checked ~ .burger-logo {
+  background-image: url("../assets/close-modo-noct.svg");
+}
+
+.night .menu .menu-items {
+  background-color: black;
+}
+
+.night .menu .night {
+  background-color: #37383C;
+}
+
+.night .menu li {
+  color: white;
+}
+
+.night .search-container {
+  border-color: white;
+}
+
+.night .search-container .search-button {
+  background-image: url("../assets/icon-search-modo-noct.svg");
+}
+
+.night .search-container .search-button-close {
+  background-image: url("../assets/close-modo-noct.svg");
+}
+
+.night .results {
+  background-color: #37383C;
+}
+
+.night.trending {
+  background-color: #222326;
+}
+
+.night .close-selected {
+  background-image: url(../assets/close-modo-noct.svg);
+}
+
+.night .text p:nth-child(1), .night .text p:nth-child(2) {
+  color: white;
+}
+
+.night .icons-container .fb:hover {
+  background-image: url("../assets/icon_facebook_noc.svg");
+}
+
+.night .icons-container .tw:hover {
+  background-image: url("../assets/icon_twitter_noc.svg");
+}
+
+.night .icons-container .ig:hover {
+  background-image: url("../assets/icon_instagram_noc.svg");
+}
+
+.night .border {
+  border-color: white;
+}
+
+.night .border .create-gif-text {
+  color: white;
+}
+
+.night .border .movie {
+  background-image: url("../assets/pelicula-modo-noc.svg");
+}
+
+.night .camera .camera-img {
+  background-image: url("../assets/camara-modo-noc.svg");
+}
+
+.night .steps > span {
+  color: white;
+  border-color: white;
+}
+
+.night .steps > span.selected {
+  color: black;
+  background-color: white;
+}
+
+.night .divisor {
+  background-color: white;
+}
+
+.night .record {
+  color: white;
+  background-color: inherit;
+  border-color: white;
+}
+
+.night .record:hover {
+  color: black;
+  background-color: white;
+}
+
+.pagination span.night:hover {
+  color: white;
+}

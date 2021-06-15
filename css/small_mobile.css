@@ -1,0 +1,15 @@
+.results .gifs-result-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 160px;
+      grid-template-rows: 160px;
+  gap: 40px 40px;
+  margin: 0 10% 40px;
+}
+
+.results .gifs-result-container img {
+  width: 100%;
+  height: 160px;
+}

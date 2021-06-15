@@ -1,0 +1,200 @@
+h1 {
+  font-size: 3rem;
+  line-height: 5rem;
+  max-width: 500px;
+}
+
+h2 {
+  font-size: 2.6rem;
+  line-height: 3rem;
+}
+
+h3 {
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+}
+
+nav .logo img {
+  height: 5.9rem;
+  width: 5.9rem;
+}
+
+nav .logo span {
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+  top: 2.4rem;
+  width: 5.5rem;
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 100%;
+  height: 100%;
+}
+
+.menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: static;
+  max-height: none;
+  height: 100%;
+  width: auto;
+  background-color: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transform: translateY(0%);
+          transform: translateY(0%);
+}
+
+.menu ul li {
+  color: #572EE5;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  margin-left: 4vw;
+}
+
+.menu ul li::after {
+  content: none;
+}
+
+.menu ul li:first-child {
+  margin-left: 0;
+}
+
+.menu .burger-logo {
+  display: none;
+}
+
+.menu .checkbox {
+  display: none;
+}
+
+.search h1 {
+  padding-top: 70px;
+}
+
+.search h3 {
+  margin-top: 70px;
+}
+
+.search p {
+  margin-top: 5px;
+  padding-bottom: 90px;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+}
+
+.trending {
+  padding-top: 70px;
+  padding-bottom: 100px;
+  height: auto;
+}
+
+.trending > p {
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+  margin-top: 12px;
+  margin-bottom: 50px;
+}
+
+.trending > p::after {
+  content: "GIFOS de nuestra comunidad.";
+  white-space: normal;
+}
+
+.trending .trending-gifs-container {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow-x: hidden;
+}
+
+.trending .trending-gifs-container img {
+  min-width: 220px;
+  width: 28%;
+  height: 180px;
+  max-width: 270px;
+  padding: 0;
+  margin: 0 2%;
+}
+
+.results {
+  padding-top: 70px;
+}
+
+.results .gifs-result-container {
+  display: -ms-grid;
+  display: grid;
+  /* -ms-grid-columns: (30%)[3]; */
+      grid-template-columns: repeat(3, 30%);
+  -ms-grid-rows: 160px;
+      grid-template-rows: 160px;
+  gap: 30px 30px;
+  margin: 0 40px 60px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.results .gifs-result-container img {
+  max-width: 260px;
+  width: 100%;
+  height: 160px;
+}
+
+.results h2 {
+  padding-bottom: 70px;
+}
+
+.pagination {
+  margin-bottom: 60px;
+}
+
+.pagination li {
+  font-size: 2.2rem;
+  width: 4rem;
+  height: 4rem;
+}
+
+footer {
+  height: 116px;
+  padding: 0 10%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .icons-container {
+  width: 100px;
+  margin: 0;
+  margin-left: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .copyright {
+  position: absolute;
+  right: 10%;
+}
+
+#empty h2 {
+  font-size: 1.8rem;
+}

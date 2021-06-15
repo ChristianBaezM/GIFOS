@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gifos</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/mobile.css"> 
+    <link rel="stylesheet" href="./css/small_mobile.css" media="(min-width: 480px)"> 
+    <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 768px)"> 
+    <link rel="stylesheet" href="./css/desktop.css" media="(min-width: 1024px)">
+    <link rel="stylesheet" href="./css/big_desktop.css" media="(min-width: 1200px)">
+    <link rel="stylesheet" href="./css/night_mode.css"> 
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="./assets/logo-mobile.svg" alt="logo">
+                <span>GIFOS</span>
+            </div>
+            <div class="menu">
+                <input type="checkbox" class="checkbox">
+                <span class="burger-logo"></span>
+                <ul class="menu-items">
+                    <li class="night-mode">Modo Nocturno</li>
+                    <li class="favorites">Favoritos</li>
+                    <li class="my-gifs">Mis GIFOS</li>
+                    <li class="new-gif"></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="search">
+            <h1>Inspírate, busca, guarda, y crea los mejores <span class="gifos">GIFOS</span></h1>
+            <section class="search-block">
+                <img src="./assets/ilustra_header.svg" alt="Ilustracion header">
+                <div class="search-container">
+                    <div class="input-container">
+                        <span class="search-ac"></span>
+                        <input type="text" placeholder="Busca GIFOS y más" class="input-search">
+                        <button class="search-button"></button>
+                        <span class="autocomplete-divisor"></span>
+                    </div>
+                    <ul class="ul-autocomplete"></ul>
+                </div>
+                <h3>Trending:</h3>
+                <p class="trends">
+                    <span class="trend-suggestion">Fetch</span>
+                    <span class="trend-suggestion">to</span>
+                    <span class="trend-suggestion">API</span>
+                    <span class="trend-suggestion">with</span>
+                    <span class="trend-suggestion">trends</span>
+                </p>
+            </section>
+            <section class="results">
+                <span class="results-divisor"></span>
+                <span class="section-image"></span>
+                <h2 class="searched-term">Searched term</h2>
+                <div class="gifs-result-container"></div>
+                <ul class="pagination">
+                    <li><span class="fas fa-chevron-left"></span></li>
+                    <li class="page">1</li>
+                    <li class="page">2</li>
+                    <li class="page">3</li>
+                    <li class="page">4</li>
+                    <li class="page">5</li>
+                    <li><span class="fas fa-chevron-right"></span></li>
+                </ul>
+            </section>
+        </section>
+        <div class="selected">
+            <span class="close-selected"></span>
+            <img src="./assets/icon-busqueda-sin-resultado.svg" alt="Expanded gif">
+            <div class="options">
+                <div class="text">
+                    <p class="username">No User</p>
+                    <p class="title">Title GIFO</p>
+                </div>
+                <div class="buttons">
+                    <span class="fav-button"></span>
+                    <a class="download-button"></a>
+                </div>
+            </div>
+        </div>
+        <section class="trending">
+            <h2>Trending GIFOS</h2>
+            <p>Mira los últimos </p>
+            <div class="trending-gifs-container">
+                <img src="./assets/icon-busqueda-sin-resultado.svg" alt="Trending gif" class="trending-gif">
+                <img src="./assets/icon-busqueda-sin-resultado.svg" alt="Trending gif" class="trending-gif">
+                <img src="./assets/icon-busqueda-sin-resultado.svg" alt="Trending gif" class="trending-gif">
+            </div>
+        </section>
+        <section class="create-gif">
+            <div class="border">
+                <div class="frame">
+                    <h2 class="create-gif-title">Aquí podrás<br>crear tus propios <span class="gifos">GIFOS</span></h2>
+                    <p class="create-gif-text">¡Crea tu GIFO en sólo 3 pasos!<br>(sólo necesitas una cámara para grabar un video)</p>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="camera">
+                    <span class="camera-img"></span>
+                    <span class="light"></span>
+                </div>
+                <div class="movie">
+                    <span class="movie-img"></span>
+                </div>
+                <video src="./assets/icon-busqueda-sin-resultado.svg"></video>
+                <div class="video-card">
+                    <span class="loading"></span>
+                    <p class="upload-text">Estamos subiendo tu GIFO</p>
+                    <div class="buttons">
+                        <a class="download-button"></a>
+                        <a class="link-button"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="steps">
+                <span>1</span>
+                <span>2</span>
+                <span>3</span>
+                <p class="timer"></p>
+            </div>
+            <span class="divisor"></span>
+            <button class="record">COMENZAR</button>
+        </section>
+    </main>
+    <footer>
+        <p>Compartir en:</p>
+        <div class="icons-container">
+            <a href="https://www.facebook.com/"><span class="fb"></span></a>
+            <a href="https://twitter.com/login"><span class="tw"></span></a>
+            <a href="https://www.instagram.com/?hl=es-la"><span class="ig"></span></a>
+        </div>
+        <p class="copyright">&copy; GIFOS 2020 All Rights Reserved.</p>
+    </footer>
+    <script src="./js/fetch.js"></script>
+    <script src="./js/app.js"></script>
+    <script src="./js/favorites.js"></script>
+    <script src="./js/pages.js"></script>
+    <script src="./js/views.js"></script>
+    <script src="./js/night.js"></script>
+    <script src="./js/mouseover.js"></script>
+    <script src="./js/navbar.js"></script>
+    <script src="https://www.WebRTC-Experiment.com/RecordRTC.js"></script>
+    <script src="./js/camera.js"></script>
+</body>
+</html>
+
